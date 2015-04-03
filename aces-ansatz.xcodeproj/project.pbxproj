@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		960156161ABB0C230042D7CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 960156151ABB0C230042D7CA /* main.cpp */; };
+		96095E841ABB257800081B24 /* core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96095E821ABB257800081B24 /* core.cpp */; };
+		96095E861ABB266000081B24 /* global_state.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96095E851ABB266000081B24 /* global_state.cpp */; };
+		96095E881ABB2C4D00081B24 /* io_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96095E871ABB2C4D00081B24 /* io_utils.cpp */; };
+		9613AF0B1ACB21D700080E7C /* input_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9613AF091ACB21D700080E7C /* input_parser.cpp */; };
+		9613AF0C1ACB21D700080E7C /* input_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9613AF0A1ACB21D700080E7C /* input_reader.cpp */; };
+		9617A24B1ACC580C00F15EFB /* cartesian_manipulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9617A24A1ACC580C00F15EFB /* cartesian_manipulator.cpp */; };
+		9617A24D1ACC5C2300F15EFB /* molecule_data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9617A24C1ACC5C2300F15EFB /* molecule_data.cpp */; };
+		9617A2511ACDA59500F15EFB /* asv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9617A2501ACDA59500F15EFB /* asv.cpp */; };
+		9617A2531ACDA59A00F15EFB /* keyword_handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9617A2521ACDA59A00F15EFB /* keyword_handler.cpp */; };
+		966F5C841ABB15780016D014 /* interupt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 966F5C831ABB15780016D014 /* interupt.cpp */; };
+		96E4F5FE1ABB1617003E0C81 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96E4F5FD1ABB1617003E0C81 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +34,26 @@
 
 /* Begin PBXFileReference section */
 		960156121ABB0C230042D7CA /* aces-ansatz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "aces-ansatz"; sourceTree = BUILT_PRODUCTS_DIR; };
-		960156151ABB0C230042D7CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9601561C1ABB141B0042D7CA /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		96095E811ABB248D00081B24 /* global_state.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = global_state.h; path = "aces-ansatz/src/include/global_state.h"; sourceTree = SOURCE_ROOT; };
+		96095E821ABB257800081B24 /* core.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = core.cpp; path = "aces-ansatz/src/core/core.cpp"; sourceTree = "<group>"; };
+		96095E851ABB266000081B24 /* global_state.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = global_state.cpp; path = "aces-ansatz/src/core/global_state.cpp"; sourceTree = "<group>"; };
+		96095E871ABB2C4D00081B24 /* io_utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = io_utils.cpp; path = "aces-ansatz/src/core/io_utils.cpp"; sourceTree = "<group>"; };
+		96095E8A1ABB401100081B24 /* input_reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = input_reader.h; path = "aces-ansatz/src/include/input_reader.h"; sourceTree = "<group>"; };
+		96095E8C1ABB65AE00081B24 /* molecule_data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = molecule_data.h; path = "aces-ansatz/src/include/molecule_data.h"; sourceTree = "<group>"; };
+		96095E8D1ABB6C4500081B24 /* atom_list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = atom_list.h; path = "aces-ansatz/src/include/atom_list.h"; sourceTree = "<group>"; };
+		9613AF091ACB21D700080E7C /* input_parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = input_parser.cpp; path = "aces-ansatz/src/input/input_parser.cpp"; sourceTree = "<group>"; };
+		9613AF0A1ACB21D700080E7C /* input_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = input_reader.cpp; path = "aces-ansatz/src/input/input_reader.cpp"; sourceTree = "<group>"; };
+		9617A24A1ACC580C00F15EFB /* cartesian_manipulator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cartesian_manipulator.cpp; path = "aces-ansatz/src/input/cartesian_manipulator.cpp"; sourceTree = "<group>"; };
+		9617A24C1ACC5C2300F15EFB /* molecule_data.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = molecule_data.cpp; path = "aces-ansatz/src/core/molecule_data.cpp"; sourceTree = "<group>"; };
+		9617A2501ACDA59500F15EFB /* asv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = asv.cpp; path = "aces-ansatz/src/input/asv.cpp"; sourceTree = "<group>"; };
+		9617A2521ACDA59A00F15EFB /* keyword_handler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = keyword_handler.cpp; path = "aces-ansatz/src/input/keyword_handler.cpp"; sourceTree = "<group>"; };
+		9617A2571ACDAB2300F15EFB /* abort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = abort.h; path = "aces-ansatz/src/include/abort.h"; sourceTree = "<group>"; };
+		966F5C831ABB15780016D014 /* interupt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = interupt.cpp; path = "aces-ansatz/src/core/interupt.cpp"; sourceTree = SOURCE_ROOT; };
+		96791CDB1AC0B04500A57C7C /* asv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = asv.h; path = "aces-ansatz/src/include/asv.h"; sourceTree = "<group>"; };
+		96791CDC1AC0B0DE00A57C7C /* flags.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = flags.h; path = "aces-ansatz/src/include/flags.h"; sourceTree = "<group>"; };
+		96E4F5FD1ABB1617003E0C81 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "aces-ansatz/src/main/main.cpp"; sourceTree = "<group>"; };
+		96E4F5FF1ABB1DFC003E0C81 /* core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = core.h; path = "aces-ansatz/src/include/core.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +70,25 @@
 		960156091ABB0C230042D7CA = {
 			isa = PBXGroup;
 			children = (
+				9617A24C1ACC5C2300F15EFB /* molecule_data.cpp */,
+				9617A24A1ACC580C00F15EFB /* cartesian_manipulator.cpp */,
+				96791CDC1AC0B0DE00A57C7C /* flags.h */,
+				9617A2501ACDA59500F15EFB /* asv.cpp */,
+				96791CDB1AC0B04500A57C7C /* asv.h */,
+				96095E8D1ABB6C4500081B24 /* atom_list.h */,
+				96095E8C1ABB65AE00081B24 /* molecule_data.h */,
+				96095E8A1ABB401100081B24 /* input_reader.h */,
+				96095E851ABB266000081B24 /* global_state.cpp */,
+				96095E821ABB257800081B24 /* core.cpp */,
+				9617A2571ACDAB2300F15EFB /* abort.h */,
+				96095E811ABB248D00081B24 /* global_state.h */,
+				9613AF091ACB21D700080E7C /* input_parser.cpp */,
+				9617A2521ACDA59A00F15EFB /* keyword_handler.cpp */,
+				9613AF0A1ACB21D700080E7C /* input_reader.cpp */,
+				96095E871ABB2C4D00081B24 /* io_utils.cpp */,
+				96E4F5FF1ABB1DFC003E0C81 /* core.h */,
+				96E4F5FD1ABB1617003E0C81 /* main.cpp */,
+				966F5C831ABB15780016D014 /* interupt.cpp */,
 				960156141ABB0C230042D7CA /* aces-ansatz */,
 				960156131ABB0C230042D7CA /* Products */,
 			);
@@ -57,7 +105,7 @@
 		960156141ABB0C230042D7CA /* aces-ansatz */ = {
 			isa = PBXGroup;
 			children = (
-				960156151ABB0C230042D7CA /* main.cpp */,
+				9601561C1ABB141B0042D7CA /* src */,
 			);
 			path = "aces-ansatz";
 			sourceTree = "<group>";
@@ -118,7 +166,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				960156161ABB0C230042D7CA /* main.cpp in Sources */,
+				9613AF0B1ACB21D700080E7C /* input_parser.cpp in Sources */,
+				9617A2531ACDA59A00F15EFB /* keyword_handler.cpp in Sources */,
+				96E4F5FE1ABB1617003E0C81 /* main.cpp in Sources */,
+				966F5C841ABB15780016D014 /* interupt.cpp in Sources */,
+				9617A24D1ACC5C2300F15EFB /* molecule_data.cpp in Sources */,
+				9617A2511ACDA59500F15EFB /* asv.cpp in Sources */,
+				9617A24B1ACC580C00F15EFB /* cartesian_manipulator.cpp in Sources */,
+				96095E861ABB266000081B24 /* global_state.cpp in Sources */,
+				96095E841ABB257800081B24 /* core.cpp in Sources */,
+				9613AF0C1ACB21D700080E7C /* input_reader.cpp in Sources */,
+				96095E881ABB2C4D00081B24 /* io_utils.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,14 +260,18 @@
 		9601561A1ABB0C230042D7CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_LDFLAGS[arch=*]" = "-v";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "/Users/jason/opt/aces-ansatz/aces-ansatz/src/**";
 			};
 			name = Debug;
 		};
 		9601561B1ABB0C230042D7CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_LDFLAGS[arch=*]" = "-v";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "/Users/jason/opt/aces-ansatz/aces-ansatz/src/**";
 			};
 			name = Release;
 		};
@@ -232,6 +294,7 @@
 				9601561B1ABB0C230042D7CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
